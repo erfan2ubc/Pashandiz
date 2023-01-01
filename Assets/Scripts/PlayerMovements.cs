@@ -11,8 +11,8 @@ public class PlayerMovements : MonoBehaviour
     private Animator animator;
     
 
-    private float moveSpeed;
-    private float jumpForce;
+    public float moveSpeed;
+    public float jumpForce;
     private float moveLeftRight;
     private float jump;
     private bool isJumping;
@@ -26,7 +26,7 @@ public class PlayerMovements : MonoBehaviour
         
         
         moveSpeed = 1f;
-        jumpForce = 20f;
+        jumpForce = 1f;
         isJumping = false;
     }
 
